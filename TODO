@@ -1,0 +1,4 @@
+TODO
+
+* Make the weight function an option to the Loess function
+* Add ability to visualize the Loess method in action (ala: http://demonstrations.wolfram.com/HowLoessWorks/)

@@ -1,0 +1,20 @@
+This is a simple Mathematica code module for performing LOESS, locally weighted polynomial regression, smoothing on a set of bivariate {{x1,y1}..} scatter plot data.
+
+For more information about LOESS, see:
+
+http://en.wikipedia.org/wiki/Local_regression
+http://www.itl.nist.gov/div898/handbook/pmd/section1/pmd144.htm
+
+This software is licensed under The MIT License (MIT).  See LICENSE.
+
+Files:
+
+* Loess Demonstration.nb
+	A Mathematica notebook demonstrating the usage of the Loess.m module
+* Loess.m
+	A Mathematica code module with the Loess implementation.
+* test_1.csv
+* test_1_expected.csv
+	Test data used to demonstrate and validate the Loess impl.
+
+	
