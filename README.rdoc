@@ -1,22 +1,22 @@
-This is a simple Mathematica code module for performing LOESS, locally weighted polynomial regression, smoothing on a set of bivariate {{x1,y1}..} scatter plot data.
+This is a simple Mathematica code module for performing LOESS (locally weighted polynomial regression) smoothing on a set of bivariate {{x1,y1}..} scatter plot data.
 
 == Usage
 
-	In[17]:= (*load some sample data*)
+ In[17]:= (*load some sample data*)
 
-	data = {{0.55782, 
-	   18.6365}, {2.02173, 103.496}, {2.57733, 150.354}, {3.41403, 
-	   190.51}, {4.30141, 208.701}}
+ data = {{0.55782, 
+   18.6365}, {2.02173, 103.496}, {2.57733, 150.354}, {3.41403, 
+   190.51}, {4.30141, 208.701}}
 
-	Out[17]= {{0.55782, 18.6365}, {2.02173, 103.496}, {2.57733, 
-	  150.354}, {3.41403, 190.51}, {4.30141, 208.701}}
+ Out[17]= {{0.55782, 18.6365}, {2.02173, 103.496}, {2.57733, 
+  150.354}, {3.41403, 190.51}, {4.30141, 208.701}}
 
-	In[23]:= (* Evaluate the LOESS approximation for each data point *)
+ In[23]:= (* Evaluate the LOESS approximation for each data point *)
 
-	xs = data[[All, 1]];
-	Table[Loess[#, data, 1, 0.5] &[x], {x, xs}]
+ xs = data[[All, 1]];
+ Table[Loess[#, data, 1, 0.5] &[x], {x, xs}]
 
-	Out[24]= {18.6365, 103.496, 150.354, 190.51, 208.701}
+ Out[24]= {18.6365, 103.496, 150.354, 190.51, 208.701}
 
 For more information about LOESS, see:
 
@@ -27,12 +27,12 @@ This software is licensed under The MIT License (MIT).  See LICENSE.
 
 == Files
 
- * Loess Demonstration.nb
-	A Mathematica notebook demonstrating the usage of the Loess.m module
- * Loess.m
-	A Mathematica code module with the Loess implementation.
- * test_1.csv
- * test_1_expected.csv
-	Test data used to demonstrate and validate the Loess impl.
+* Loess Demonstration.nb
+  * A Mathematica notebook demonstrating the usage of the Loess.m module
+* Loess.m
+  * A Mathematica code module with the Loess implementation.
+* test_1.csv
+* test_1_expected.csv
+  * Test data used to demonstrate and validate the Loess impl.
 
 	
