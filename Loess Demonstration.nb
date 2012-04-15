@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     44940,        944]
-NotebookOptionsPosition[     43077,        874]
-NotebookOutlinePosition[     43435,        890]
-CellTagsIndexPosition[     43392,        887]
+NotebookDataLength[     45148,        948]
+NotebookOptionsPosition[     43285,        878]
+NotebookOutlinePosition[     43643,        894]
+CellTagsIndexPosition[     43600,        891]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -80,11 +80,11 @@ Cell[BoxData[
         {
          ButtonBox["Loess",
           BaseStyle->"InformationLink",
-          ButtonData:>{"Info3543427786-4706019", {"Loess", "Loess`"}},
+          ButtonData:>{"Info3543429431-6001254", {"Loess", "Loess`"}},
           ButtonNote->"Loess`"], 
          ButtonBox["TricubeWeight",
           BaseStyle->"InformationLink",
-          ButtonData:>{"Info3543427786-4706019", {"TricubeWeight", "Loess`"}},
+          ButtonData:>{"Info3543429431-6001254", {"TricubeWeight", "Loess`"}},
           
           ButtonNote->"Loess`"]}
        },
@@ -95,7 +95,7 @@ Cell[BoxData[
     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}]}, 
    Dynamic[Typeset`open$$],
    ImageSize->Automatic]]], "Print", "InfoCell",
- CellChangeTimes->{3.5434529866214314`*^9}]
+ CellChangeTimes->{3.5434546311970177`*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -120,15 +120,17 @@ National Institute of Standards and Technology
 Cell[BoxData[
  RowBox[{
   RowBox[{"data", "=", 
-   RowBox[{"Import", "[", "\"\<test_1.csv\>\"", "]"}]}], ";"}]], "Input",
+   RowBox[{"Import", "[", "\"\<test/test_1.csv\>\"", "]"}]}], ";"}]], "Input",\
+
  CellChangeTimes->{{3.543447387993618*^9, 3.543447416160684*^9}, {
   3.543447498809815*^9, 3.5434475106410847`*^9}, {3.5434482392086267`*^9, 
-  3.543448240858555*^9}, {3.543452158957427*^9, 3.54345216223842*^9}}],
+  3.543448240858555*^9}, {3.543452158957427*^9, 3.54345216223842*^9}, {
+  3.543454603184183*^9, 3.543454603653864*^9}}],
 
 Cell[BoxData[{
  RowBox[{
   RowBox[{"expected", "=", 
-   RowBox[{"Import", "[", "\"\<test_1_expected.csv\>\"", "]"}]}], 
+   RowBox[{"Import", "[", "\"\<test/test_1_expected.csv\>\"", "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"expectedX", "=", 
@@ -139,7 +141,7 @@ Cell[BoxData[{
   3.543449399339861*^9, 3.543449399687758*^9}, {3.543452168219434*^9, 
   3.5434521689802723`*^9}, {3.543452397069371*^9, 3.543452412499011*^9}, {
   3.5434526760223494`*^9, 3.5434526770882807`*^9}, {3.543453046662876*^9, 
-  3.543453055111878*^9}}]
+  3.543453055111878*^9}, {3.5434546064133673`*^9, 3.5434546068610897`*^9}}]
 }, Open  ]]
 }, Open  ]],
 
@@ -177,7 +179,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.543452723167479*^9, 3.5434527238430862`*^9}}],
 
 Cell[BoxData["202.98764105795777`"], "Output",
- CellChangeTimes->{3.54345272415915*^9, 3.543452986729862*^9}]
+ CellChangeTimes->{3.54345272415915*^9, 3.543452986729862*^9, 
+  3.543454631389975*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -211,8 +214,9 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{"{", 
-  RowBox[{"0.03333099999999867`", ",", "Null"}], "}"}]], "Output",
- CellChangeTimes->{{3.543453062477968*^9, 3.543453070405519*^9}}]
+  RowBox[{"0.039998000000000644`", ",", "Null"}], "}"}]], "Output",
+ CellChangeTimes->{{3.543453062477968*^9, 3.543453070405519*^9}, 
+   3.543454631441832*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -609,7 +613,7 @@ aeqRXQ==
     Scaled[0.02], 
     Scaled[0.02]}]], "Output",
  CellChangeTimes->{3.543452641569931*^9, 3.5434526826257887`*^9, 
-  3.5434529879938297`*^9, 3.54345357284612*^9}]
+  3.5434529879938297`*^9, 3.54345357284612*^9, 3.54345463276842*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -867,13 +871,13 @@ B///93H/B4pb4to=
   3.543429916465856*^9, 3.5434299905626507`*^9, 3.543435157787925*^9, 
   3.543435884733547*^9, 3.5434475187527733`*^9, 3.543449358400297*^9, 
   3.5434494164762983`*^9, 3.543452499448881*^9, 3.5434526826755342`*^9, 
-  3.543452988041169*^9}]
+  3.543452988041169*^9, 3.5434546328012667`*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{740, 867},
-WindowMargins->{{326, Automatic}, {Automatic, 67}},
+WindowMargins->{{182, Automatic}, {Automatic, 13}},
 ShowSelection->True,
 FrontEndVersion->"8.0 for Linux x86 (64-bit) (October 10, 2011)",
 StyleDefinitions->"Default.nb"
@@ -894,7 +898,7 @@ Cell[579, 22, 111, 1, 88, "Title"],
 Cell[693, 25, 341, 6, 29, "Input"],
 Cell[CellGroupData[{
 Cell[1059, 35, 98, 1, 54, "Subtitle"],
-Cell[1160, 38, 640, 13, 169, "Text"]
+Cell[1160, 38, 640, 13, 165, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[1837, 56, 148, 2, 54, "Subtitle"],
@@ -906,43 +910,43 @@ Cell[2129, 66, 1073, 31, 57, "Print"]
 Cell[CellGroupData[{
 Cell[3251, 103, 97, 1, 54, "Subtitle"],
 Cell[3351, 106, 482, 11, 136, "Text"],
-Cell[3836, 119, 334, 6, 31, "Input"],
-Cell[4173, 127, 620, 14, 49, "Input"]
+Cell[3836, 119, 390, 8, 31, "Input"],
+Cell[4229, 129, 675, 14, 49, "Input"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4842, 147, 160, 2, 88, "Title"],
-Cell[5005, 151, 108, 1, 54, "Subtitle"],
-Cell[5116, 154, 534, 15, 122, "Text"],
+Cell[4953, 149, 160, 2, 88, "Title"],
+Cell[5116, 153, 108, 1, 54, "Subtitle"],
+Cell[5227, 156, 534, 15, 122, "Text"],
 Cell[CellGroupData[{
-Cell[5675, 173, 176, 3, 29, "Input"],
-Cell[5854, 178, 109, 1, 29, "Output"]
+Cell[5786, 175, 176, 3, 29, "Input"],
+Cell[5965, 180, 134, 2, 29, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6000, 184, 106, 1, 54, "Subtitle"],
-Cell[6109, 187, 261, 5, 47, "Text"],
+Cell[6136, 187, 106, 1, 54, "Subtitle"],
+Cell[6245, 190, 261, 5, 45, "Text"],
 Cell[CellGroupData[{
-Cell[6395, 196, 416, 13, 29, "Input"],
-Cell[6814, 211, 161, 3, 29, "Output"]
+Cell[6531, 199, 416, 13, 29, "Input"],
+Cell[6950, 214, 188, 4, 29, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7024, 220, 102, 1, 54, "Subtitle"],
-Cell[7129, 223, 306, 7, 82, "Text"],
-Cell[7438, 232, 424, 10, 29, "Input"],
-Cell[7865, 244, 713, 20, 48, "Input"],
-Cell[8581, 266, 306, 9, 48, "Input"],
+Cell[7187, 224, 102, 1, 54, "Subtitle"],
+Cell[7292, 227, 306, 7, 79, "Text"],
+Cell[7601, 236, 424, 10, 29, "Input"],
+Cell[8028, 248, 713, 20, 48, "Input"],
+Cell[8744, 270, 306, 9, 48, "Input"],
 Cell[CellGroupData[{
-Cell[8912, 279, 1107, 17, 29, "Input"],
-Cell[10022, 298, 18541, 313, 373, "Output"]
+Cell[9075, 283, 1107, 17, 29, "Input"],
+Cell[10185, 302, 18562, 313, 373, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28612, 617, 165, 2, 54, "Subtitle"],
-Cell[28780, 621, 217, 4, 47, "Text"],
+Cell[28796, 621, 165, 2, 54, "Subtitle"],
+Cell[28964, 625, 217, 4, 45, "Text"],
 Cell[CellGroupData[{
-Cell[29022, 629, 597, 12, 29, "Input"],
-Cell[29622, 643, 13415, 226, 247, "Output"]
+Cell[29206, 633, 597, 12, 29, "Input"],
+Cell[29806, 647, 13439, 226, 247, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
